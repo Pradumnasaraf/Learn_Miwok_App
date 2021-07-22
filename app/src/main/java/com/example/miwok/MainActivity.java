@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         // Find the views that shows the number category
         TextView number = findViewById(R.id.numbers);
 
-        // Set on click Listener on that view.
+        // Set on click Listener on that view..
         number.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
