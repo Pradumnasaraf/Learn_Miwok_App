@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/BackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/miwokTextView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="hello">
+
+            </TextView>
+            <TextView
+                android:id="@+id/defaultTextView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:text="hello">
+
+            </TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:src="@drawable/outline_audiotrack_black_36">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>
